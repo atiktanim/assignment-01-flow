@@ -1,0 +1,33 @@
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.sctn{
+
+     background-image: url(../images/Hero-bg.png);
+     height: 698px;
+}
+section nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+.logo{
+    color: #4E47FF;
+}
+
+/* sign up button */
+.btn{
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 36px;
+    width: 96px;
+    height: 50px;
+    white-space: nowrap;
+    text-align: center;
+    
+}
