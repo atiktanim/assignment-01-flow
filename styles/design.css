@@ -6,28 +6,237 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* Background image and image height */
 .sctn{
 
      background-image: url(../images/Hero-bg.png);
      height: 698px;
+     margin-bottom: 116px;
 }
 section nav{
     display: flex;
     justify-content: space-between;
     margin: 0px 150px;
+    align-items: center;
+    padding: 50px;
 }
 .logo{
     color: #4E47FF;
+    font-size: 36px;
 }
 
 /* sign up button */
 .btn{
     background-color: #4E47FF;
     color: white;
+    font-weight: bold;
+    color: white;
+    margin: 12px 36px;
+    border-radius: 10px;
+    font-size: 36px;
+    border: none;
     padding: 12px 36px;
-    width: 96px;
-    height: 50px;
-    white-space: nowrap;
+    list-style-type: none;
+}
+.sctn li{
+    list-style-type: none;
+}
+.part-2 li{
+    list-style-type: none;
+}
+.font-Raleway {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.center-text{
+    font-size: 65px;
+}
+.gap{
+    margin: 6998px 1440px;
+}
+.part-2{
+    align-items: center;
+    text-align: center;
+    height: 237px;
+    width: 905px;
+    margin: auto;
+}
+.action{
+    align-items: center;
+    display: flex;
+    height: 328px;
+    width: 1140px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 116px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.action-section{
+    display: block;
+    /* margin: 62px 62px 0px 623px; */
+    margin-top: 62px;
+    margin-bottom: 62px;
+    margin-right: 125px;
+    margin-left: 0px;
+    /* background-color: aqua; */
+    
+
+}
+/* action 2 paragraph size */
+
+.parasize{
+
+    font-size: 24px;
+}
+.action-size{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action .btnaction{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    color: white;
+    
+    border-top: 155px;
+    border-bottom: 0px;
+    border-right: 288px;
+     border-left: 0px;
+    border-radius: 10px;
+    font-size: 36px;
+    border: none;
+    padding: 12px 36px;
+    list-style-type: none;
+}
+.productive{
+    align-items: center;
+    height: 306px;
+    width: 1140px;
+    margin-top: auto;
+    margin-bottom: 116px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(78, 71, 255, 0.12);
+    border-radius: 10px;
+}
+.production-margin{
+    margin: 50px 142px 50px 142px;
+    
+}
+.subtitle{
+    justify-content: space-around;
+    display: flex;
+}
+.p-size{
+    padding-top: 50px;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.item-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
     text-align: center;
     
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.item{
+    
+}
+.item-description{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+
+.font-inter{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.review{
+    align-items: center;
+    height: 342px;
+    width: 1140px;
+    margin-top: auto;
+    margin-bottom: 116px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(78, 71, 255, 0.12);
+    border-radius: 10px;
+}
+.revfont{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.focus{
+    height: 697px;
+    width: 1140px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 116px;
+    
+    
+}
+.focus-font{
+
+    height: 60px;
+    width: 516px;
+    padding-top: 71px;
+    margin-top: 71px;
+    margin-right: 312px;
+    margin-left: 312px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    text-wrap: wrap;
+    font-weight: bold;+
+    text-align: center;
+    white-space: nowrap;
+    
+}
+.focus-paragraph{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.focusbtn{
+
+    height: 48px;
+    width: 195px;
+    margin-top: 20px;
+    margin-right: 472.5px;
+    margin-left: 472.5px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 16px;
+    border: none;
+    list-style-type: none;
+    background-color: #4E47FF;
+}
+.focus-image{
+    height: 364.77px;
+    width: 840px;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+    display: block;
 }
