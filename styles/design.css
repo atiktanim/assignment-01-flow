@@ -150,9 +150,7 @@ section nav{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.item{
-    
-}
+
 .item-description{
     font-size: 20px;
     text-align: center;
@@ -206,7 +204,7 @@ section nav{
     margin-bottom: 0px;
     font-size: 50px;
     text-wrap: wrap;
-    font-weight: bold;+
+    font-weight: bold;
     text-align: center;
     white-space: nowrap;
     
@@ -239,4 +237,101 @@ section nav{
     margin: auto;
     border-radius: 20px;
     display: block;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+    width: 1140px;
+    height: 632px;
+    margin-top: auto;
+    margin-bottom: 116px;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+}
+footer{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: 
+}
+.footer-column p{
+    
+    text-align: left;
+    justify-content: left;
+    padding-top: 100px;    
+}
+footer input[type="text"],footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom:24px ;
+    border: 0px;
+}
+.touchbtn{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    color: white;
+    height: 62px;
+    width: 497px;
+    border-top: 19px;
+    border-bottom: 19px;
+    border-right: auto;
+    border-left: 201px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    padding: 12px 36px;
+    list-style-type: none;
+}
+.section-title{
+    font-size: 97px;
+    height: 232px;
+    width: 600px;
+    text-align: left;
+    align-items:left;
+}
+.footer-column-input{
+    padding-top: 71px;
+    padding-bottom: 71px;
+
+}
+.biglogo{
+    font-size: 10px;
+    height: 121px;
+    width: 291px;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-bottom:0px;
+    text-align: center;
+    color: #4E47FF;
+}
+.productive-logo{
+    align-items: center;
+    height: 221px;
+    width: 531px;
+    margin-top: auto;
+    margin-bottom: 116px;
+    margin-right:455px;
+    margin-left: 455px;
+    background-color: rgba(78, 71, 255, 0.12);
+    border-radius: 10px;
+
+}
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+}
+.last-section{
+    height: 221px;
+    width: 531px;
+    margin-top: 104px;
+    margin-bottom: 103px;
+    margin-right:455px;
+    margin-left: 455px;
+    background-color: aqua;
 }
