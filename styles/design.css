@@ -65,6 +65,9 @@ section nav{
     width: 905px;
     margin: auto;
 }
+.action img{
+    border-radius: 30px;
+}
 .action{
     align-items: center;
     display: flex;
@@ -124,7 +127,7 @@ section nav{
     margin-right: auto;
     margin-left: auto;
     background-color: rgba(78, 71, 255, 0.12);
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .production-margin{
     margin: 50px 142px 50px 142px;
@@ -173,7 +176,7 @@ section nav{
     height: 342px;
     width: 1140px;
     margin-top: auto;
-    margin-bottom: 116px;
+    margin-bottom: 147px;
     margin-right: auto;
     margin-left: auto;
     /* background-color: rgba(78, 71, 255, 0.12); */
@@ -181,7 +184,7 @@ section nav{
     /* background-color: yellow; */
 }
 .revfont{
-    font-size: 32px;
+    font-size: 42px;
     font-weight: bold;
     text-align: center;
     /* background-color: chocolate; */
@@ -211,7 +214,7 @@ section nav{
 }
 .revsection{
     padding-top: 10px;
-    height: 243px;
+    padding-bottom: 24px;
     width: 366.67px;
     padding-left: 24px;
     background-color:white;
@@ -307,7 +310,7 @@ section nav{
     width: 1140px;
     height: 632px;
     margin-top: auto;
-    margin-bottom: 116px;
+    margin-bottom: 100px;
     margin-right: auto;
     margin-left: auto;
     
@@ -396,8 +399,8 @@ footer input[type="text"],footer input[type="email"], footer textarea{
     justify-content: space-between;
 }
 .last-section{
-    /* background-color: aqua; */
-    width: 531px;
+    background-color: white;
+    width: 1140px;
     height: 221px;
     margin-top: 104PX;
     margin-bottom: 116px;
@@ -453,3 +456,17 @@ body{
     max-width: 460px;
 
 }
+.others-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+  color: rgba(37, 36, 50, 0.5);
+  font-variation-settings:
+    "wdth" 100;
+}
+.logocenter{
+    text-align: center;
+    padding: ;
+}
+
