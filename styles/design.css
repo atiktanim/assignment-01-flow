@@ -183,8 +183,57 @@ section nav{
     font-size: 32px;
     font-weight: bold;
     text-align: center;
+    background-color: chocolate;
 
 }
+
+.rev{
+    height: 81px;
+    width: 318.67px;
+    background-color:yellow;
+}
+.revsection img{
+    height: 20px;
+    width: 20px;
+}
+.imflex{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    width:116px ;
+}
+.rev p{
+    height: 44px;
+    width: 318.67px;
+    margin: auto;
+}
+.revsection{
+    
+    height: 100px;
+    width: 366.67px;
+    padding-left: 24px;
+    
+    
+
+}
+.designer{
+    font-size: 24px;
+    font-weight: bold;
+}
+.end{
+    height: 46px;
+    width:318.67px ;
+    background-color: darkolivegreen;
+    gap: 12px;
+    display: flex;
+    justify-content: left;
+}
+.review .avatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
 .focus{
     height: 697px;
     width: 1140px;
@@ -192,7 +241,7 @@ section nav{
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 116px;
-    
+    background-color: white;
     
 }
 .focus-font{
@@ -241,7 +290,7 @@ section nav{
     display: block;
 }
 .secondary-bg{
-    background-color: #FFF8F3;
+    /* background-color: aqua; */
     width: 1140px;
     height: 632px;
     margin-top: auto;
@@ -252,7 +301,6 @@ section nav{
 
 }
 footer{
-    
     display: flex;
     justify-content: space-between;
     background-color: 
@@ -298,8 +346,14 @@ footer input[type="text"],footer input[type="email"], footer textarea{
     align-items:left;
 }
 .footer-column-input{
+    /* background-color: crimson; */
     padding-top: 71px;
     padding-bottom: 71px;
+    padding-right: 0px;
+    padding-left: 0px;
+    height: 490px;
+    width: 497px;
+   
 
 }
 .biglogo{
@@ -374,4 +428,15 @@ footer input[type="text"],footer input[type="email"], footer textarea{
     text-align: center;
     margin-top: 0px;
     
+}
+body{
+    background-color: rgb(248, 245,255);   
+}
+.sizing input{
+    max-width: 460px;
+
+}
+.sizing textarea{
+    max-width: 460px;
+
 }
