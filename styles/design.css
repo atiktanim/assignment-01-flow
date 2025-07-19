@@ -176,21 +176,22 @@ section nav{
     margin-bottom: 116px;
     margin-right: auto;
     margin-left: auto;
-    background-color: rgba(78, 71, 255, 0.12);
+    /* background-color: rgba(78, 71, 255, 0.12); */
     border-radius: 10px;
+    /* background-color: yellow; */
 }
 .revfont{
     font-size: 32px;
     font-weight: bold;
     text-align: center;
-    background-color: chocolate;
+    /* background-color: chocolate; */
 
 }
 
 .rev{
     height: 81px;
     width: 318.67px;
-    background-color:yellow;
+    /* background-color:yellow; */
 }
 .revsection img{
     height: 20px;
@@ -201,6 +202,7 @@ section nav{
     justify-content: space-between;
     height: 20px;
     width:116px ;
+    
 }
 .rev p{
     height: 44px;
@@ -208,13 +210,21 @@ section nav{
     margin: auto;
 }
 .revsection{
-    
-    height: 100px;
+    padding-top: 10px;
+    height: 243px;
     width: 366.67px;
     padding-left: 24px;
-    
-    
-
+    background-color:white;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    /* background-color: blueviolet; */
+}
+.reviewflex{
+    display: flex;
+    height: 243px;
+    width: 1140px;
+    gap: 20px;
 }
 .designer{
     font-size: 24px;
@@ -223,10 +233,13 @@ section nav{
 .end{
     height: 46px;
     width:318.67px ;
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
     gap: 12px;
     display: flex;
     justify-content: left;
+}
+.border-remove input{
+    border: none;
 }
 .review .avatar{
     height: 40px;
