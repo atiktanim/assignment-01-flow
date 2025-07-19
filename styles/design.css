@@ -360,6 +360,7 @@ footer input[type="text"],footer input[type="email"], footer textarea{
     width: 600px;
     text-align: left;
     align-items:left;
+    font-weight: bold;
 }
 .footer-column-input{
     /* background-color: crimson; */
@@ -444,6 +445,7 @@ footer input[type="text"],footer input[type="email"], footer textarea{
     font-size: 16px;
     text-align: center;
     margin-top: 0px;
+    text-decoration: none;
     
 }
 .wholecolor{
@@ -470,4 +472,7 @@ footer input[type="text"],footer input[type="email"], footer textarea{
     text-align: center;
     padding: ;
 }
-
+.hoov:hover{
+    background-color:rgb(141, 141, 118);
+    color: white;
+}
