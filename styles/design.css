@@ -411,6 +411,7 @@ footer input[type="text"],footer input[type="email"], footer textarea{
 .logoend{
     height: 121px;
     width: 291px;
+    font-weight: bold;
     font-size: 100px;
     color: #4E47FF;
     text-align: center;
