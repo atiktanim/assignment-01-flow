@@ -150,7 +150,9 @@ section nav{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-
+.item{
+    
+}
 .item-description{
     font-size: 20px;
     text-align: center;
@@ -327,11 +329,49 @@ footer input[type="text"],footer input[type="email"], footer textarea{
     justify-content: space-between;
 }
 .last-section{
-    height: 221px;
+    /* background-color: aqua; */
     width: 531px;
-    margin-top: 104px;
-    margin-bottom: 103px;
-    margin-right:455px;
-    margin-left: 455px;
-    background-color: aqua;
+    height: 221px;
+    margin-top: 104PX;
+    margin-bottom: 116px;
+    margin-right: auto;
+    margin-left: auto; 
+    
+}
+.logoend{
+    height: 121px;
+    width: 291px;
+    font-size: 100px;
+    color: #4E47FF;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    /* background-color: chocolate; */
+}
+.align-p{
+    text-align: center;
+    align-items: center;
+    height: 40px;
+    width: 531px;
+    padding-bottom: 0px;
+    /* background-color: blue; */
+}
+.lower-end{
+    font-size: 5px;
+    padding-top: 0px;
+    height: 24px;
+    width: 401px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+   
+    justify-content: space-between;
+    /* background-color: chocolate; */
+}
+.lowertag{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0px;
+    
 }
