@@ -445,7 +445,7 @@ footer input[type="text"],footer input[type="email"], footer textarea{
     margin-top: 0px;
     
 }
-body{
+.wholecolor{
     background-color: rgb(248, 245,255);   
 }
 .sizing input{
